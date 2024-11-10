@@ -3,7 +3,6 @@ import styles from "./OrderConfirmedModal.module.css"
 import { CartContext } from "../context/cartContext";
 import { fixDecimals } from "../helpers/helpers";
 import { ModalContext } from "../context/modalContext";
-import { motion } from "framer-motion";
 
 const OrderConfirmedModal: React.FC = () => {
     const { cartInfo, totalPrice, cleanCart } = useContext(CartContext);
